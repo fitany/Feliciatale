@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="lib/crafty.js"></script>
+  <script src="src/game.js"></script>
+  <script src="src/components.js"></script>
+  <script src="src/scenes.js"></script>
+  <script>
+    window.addEventListener('load', Game.start);
+  </script>
+  <style type="text/css" media="screen">
+    body {
+      background: black;
+      text-align: center;
+      color: #DDD;
+      font-family: Arial;
+    }
+    .controls {
+      color: #BBB;
+    }
+    #cr-stage { margin: 20px auto 0; }
+    .bottom {
+      font-size: 12px;
+      color: #888;
+      margin-top: 50px;
+    }
+    .bottom a {
+      color: #AAA;
+    }
+  </style>
+</head>
+<body>
+  <h2>Feliciatale</h2>
+
+  <p id="round" class="controls">Round 1/10</p>
+
+  <div id="cr-stage"></div>
+
+  <p id="hp">HP: 10/10</p>
+
+  <p class="bottom">Virus image taken from  <a href="http://baxalah.tumblr.com" target="_blank">baxalah</a>.
+</body>
+</html>
